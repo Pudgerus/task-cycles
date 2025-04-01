@@ -35,7 +35,7 @@ export function iterationCount(a) {
   Используя цикл do while, замените в тексте каждый третий символ на символ нижнего подчеркивания
   и верните итоговый результат.
 */
-function symbolsReplace(message) {
+export function symbolsReplace(message) {
   let result = '';
   let i = 0;
   do {
